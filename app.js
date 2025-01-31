@@ -22,9 +22,7 @@ app.get('/api/headers', async (req, res) => {
       baseURL: api_uri,
       headers: { 'Content-Type': 'application/json' },
       auth: {
-        // username: 'abapcons', // Replace with your username
         username,
-        // password: 'Dipl@4321', // Replace with your password
         password,
       },
     });
@@ -42,11 +40,11 @@ app.get('/api/items/:headerId', async (req, res) => {
   const { headerId } = req.params;
   try {
     const apiClient = axios.create({
-      baseURL: 'https://divhanasrv.diverseinfotech.net:44300/sap/opu/odata4/sap/zio_sb_v4/srvd/sap/zio_srv/0001/',
+      baseURL: api_uri,
       headers: { 'Content-Type': 'application/json' },
       auth: {
-        username: 'abapcons', // Replace with your username
-        password: 'Dipl@4321', // Replace with your password
+        username,
+        password,
       },
     });
 

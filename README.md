@@ -2,6 +2,8 @@
 
 This is a simple Node.js project that serves static files and consumes data using Bootstrap for the frontend.
 
+![Screen View](./public/image/image.png)
+
 ## Project Structure
 ```
 project/
