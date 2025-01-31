@@ -1,0 +1,9 @@
+project/
+├── public/
+│   ├── css/          # For custom CSS files
+│   ├── js/           # For custom JS files
+│   └── index.html    # Main HTML file
+├── node_modules/
+├── views/            # EJS templates (optional)
+├── app.js            # Main server file
+├── package.json

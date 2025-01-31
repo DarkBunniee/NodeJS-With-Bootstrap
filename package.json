@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "npm run clean && npm run compile",
+    "clean": "rimraf dist",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "debug": "node --inspect app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jquery": "^3.7.1",
+    "nodemon": "^3.1.9"
+  }
+}
